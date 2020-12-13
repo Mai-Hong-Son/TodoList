@@ -84,7 +84,7 @@ const AddTodo: React.FC<Props> = (props) => {
             return;
         }
 
-        const id = Math.floor(Math.random() * 101);
+        const id = new Date().getTime();
 
         addTodo({
             id,
