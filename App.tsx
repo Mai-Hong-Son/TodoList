@@ -28,6 +28,8 @@ const persistConfig = {
   stateReconciler: autoMergeLevel2 // Xem thêm tại mục "Quá trình merge".
  };
 
+ // test fork project
+
 const pReducer = persistReducer(persistConfig, rootReducer);
 
 const store = createStore(pReducer);
